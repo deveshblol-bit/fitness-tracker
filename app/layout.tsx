@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "🗡️ Fitness Tracker",
+  title: "🗡️ Fitness Tracker — Zoro",
   description: "Track your journey to the half marathon",
 };
 
