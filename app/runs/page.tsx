@@ -90,7 +90,7 @@ export default function RunsPage() {
                       <div className="mt-3 flex flex-wrap gap-2">
                         {Object.entries(run.achievements).map(([key, value]) => (
                           <span key={key} className="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm">
-                            🏆 {value}
+                            🏆 {String(value)}
                           </span>
                         ))}
                       </div>
